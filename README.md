@@ -1,6 +1,12 @@
 # making_computer_games_edge_compatible
 [Poster.pdf](https://github.com/harunerkurt/making_computer_games_edge_compatible/files/11682668/Poster.pdf)
 
+Deployment
+
+• Run cargo run -p server [-F compression] -- [-p <port>] [-l <mean simulated latency>] [-m <minimum simulated latency] on the server
+                       
+• Run cargo run -p client [-F compression,bulk-requests] --[-a \<address>] [-p <port>] [-s <spawn period>] [-c <max ball count>] on the client
+
 
 ![test environment](https://github.com/harunerkurt/making_computer_games_edge_compatible/assets/49256548/bee0bc9e-6a34-4fbd-a8d2-0592d4f59107)
 
